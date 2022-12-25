@@ -4,11 +4,11 @@ version: 2.1
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
-jobs:
+jobs:32fea78d-2e67-4766-a759-1410f88c829b
   say-hello:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
-    docker:96da7648e988787d02ff52c703940b320a61d281
+    docker:2f2f2d03-a040-4aad-9ae5-3f511b01edcd
       - image: cimg/base:stable
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
